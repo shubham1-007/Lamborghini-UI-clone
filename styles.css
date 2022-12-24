@@ -21,6 +21,9 @@ ul li{
     line-height: 1.5;
     margin: 10px;
 }
+a:hover{
+    color: rgb(242, 174, 174);
+  }
 div.nav1{
     display: flex;
 }
@@ -302,16 +305,7 @@ ul li a{
     text-align: center!important;
 }
 
-@keyframes headingAnimate {
-    from{
-        translate:(0) ;
-        width:0px;
-    }
-    to{
-        translate:(100);
-        width: 100%;
-    }
-}
+
 @keyframes slidein {
     from {
         opacity: 0%;
@@ -325,6 +319,7 @@ ul li a{
       /* width: 100%; */
     }
   }
+
 
 
 
